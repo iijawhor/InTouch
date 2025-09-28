@@ -1,0 +1,27 @@
+{
+  "name": "intouch-backend",
+  "version": "1.0.0",
+  "description": "an internal platform where employees can freely interact, discuss issues, share ideas, and give feedback — without HR or admin oversight initially. The focus is on creating a safe, peer-first space that encourages open communication, collaboration, and engagement.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon -r dotenv/config --experimental-json-modules  src/server.js"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "mongodb",
+    "express",
+    "javascript"
+  ],
+  "author": "jawhor ali khan",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.2",
+    "nodemon": "^3.1.10"
+  }
+}
